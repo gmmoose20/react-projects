@@ -20,6 +20,39 @@ body {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.25rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  color: #617d98;
+}
+
 .container {
   width: 90vw;
   margin: 5rem;
@@ -33,6 +66,22 @@ body {
   font-weight: 600;
   text-transform: none;
   margin-bottom: 2rem;
+}
+.container a {
+  color: #e8eaf6;
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  background: #283593;
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 3px 3px 5px #00000066;
 }
 
 .error_page {
