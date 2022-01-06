@@ -53,6 +53,31 @@ p {
   color: #617d98;
 }
 
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
 .container {
   width: 90vw;
   margin: 5rem;
@@ -92,4 +117,15 @@ p {
   text-align: center;
   padding: 10px;
   border-radius: 5px;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.person img {
+  width: 75px;
 }
