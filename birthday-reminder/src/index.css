@@ -90,6 +90,7 @@ p {
 .container h3 {
   font-weight: 600;
   text-transform: none;
+  text-align: center;
   margin-bottom: 2rem;
 }
 .container a {
@@ -98,7 +99,7 @@ p {
   width: 100%;
   border-color: transparent;
   background: #283593;
-  margin: 2rem auto 0 auto;
+  margin: 0.5rem auto 0 auto;
   text-transform: capitalize;
   font-size: 1.2rem;
   padding: 0.5rem 0;
@@ -128,4 +129,20 @@ p {
 }
 .person img {
   width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px #000;
+}
+
+.person h4 {
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+.person p {
+  margin-bottom: 0rem;
+}
+
+div.couz_details {
+  margin-left: 20px;
 }
